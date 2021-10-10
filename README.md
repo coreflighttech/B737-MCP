@@ -1,7 +1,7 @@
 
 # ModeControlPanel
 
-How to upload Firmware to the MCP?
+How to upload Firmware to the Core Flight Tech. B737 MCP?
 
 -Close all applications and be sure X-Plane 11 is not running at the background. 
 -Connect MCP via USB. Open Xloader.exe , and click file selection button. 
