@@ -1,5 +1,5 @@
 
-# ModeControlPanel
+# B737 MCP (Mode Control Panel)
 
 How to upload Firmware to the Core Flight Tech. B737 MCP?
 
