@@ -14,3 +14,5 @@ XPL_MCP_v4.hex file is used for communicating the Core Flight Tech. MCP and X-Pl
 
 [BETA] XPL_MCP_v4_2.hex file is written for with X-Plane 11 Aircraft that use general datarefs. MCP works as a general Autopilot.
 
+
+Any help or feedback, please leave an e-mail to info@coreflighttech.com
