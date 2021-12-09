@@ -10,7 +10,9 @@ How to upload Firmware to the Core Flight Tech. B737 MCP?
 -Check baud rate is 115200 and then upload the hex file. 
 Important Note: While uploading, never cut the communication of the MCP. Otherwise, there is no way to recovery if damaged.
 
-[STABLE] XPL_MCP_v4.1.1.hex is written to communciate Core Flight Tech. MCP with X-Plane 11 Zibo737.
+[STABLE] XPL_MCP_v5.0.0.hex is written to communciate Core Flight Tech. MCP with X-Plane 11 Zibo737 3.51.0 and further versions.
+
+[STABLE] XPL_MCP_v4.1.1.hex is written to communciate Core Flight Tech. MCP with X-Plane 11 Zibo737 3.49 and earlier versions.
 
 [BETA] XPL_MCP_v4.hex file is for communicating the General Autopilot with the Core Flight Tech. MCP and X-Plane11 Zibo737.
 
