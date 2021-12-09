@@ -1,5 +1,5 @@
 
-# B737 MCP - X-Plane 11 
+# B737 MCP - X-Plane 11 - XPLDirect Connector
 
 How to upload Firmware to the Core Flight Tech. B737 MCP?
 
