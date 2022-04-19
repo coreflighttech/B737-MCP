@@ -18,5 +18,6 @@ Important Note: While uploading, never cut the communication of the MCP. Otherwi
 
 [BETA] XPL_MCP_v4_2.hex file is also Beta-Version for with X-Plane 11 Aircraft that use general datarefs. MCP works as a general Autopilot.
 
+https://coreflighttech.com/product/boeing-737-mcp/
 
 Any feedback, please leave an e-mail to info@coreflighttech.com
