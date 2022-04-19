@@ -3,11 +3,12 @@
 
 How to upload Firmware to the Core Flight Tech. B737 MCP?
 
--Close all applications and be sure X-Plane 11 is not running at the background. 
--Connect MCP via USB. Open Xloader.exe , and click file selection button. 
--Find correct hex file. And then Select device as Mega2560. 
--Com port is the USB port which MCP connected. 
--Check baud rate is 115200 and then upload the hex file. 
+  -Close all applications and be sure X-Plane 11 is not running at the background. 
+  -Connect MCP via USB. Open Xloader.exe , and click file selection button. 
+  -Find correct hex file. And then Select device as Mega2560. 
+  -Com port is the USB port which MCP connected. 
+  -Check baud rate is 115200 and then upload the hex file. 
+  
 Important Note: While uploading, never cut the communication of the MCP. Otherwise, there is no way to recovery if damaged.
 
 [STABLE] XPL_MCP_v5.0.0.hex is written to communciate Core Flight Tech. MCP with X-Plane 11 Zibo737 3.51.0 and further versions.
