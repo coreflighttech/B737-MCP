@@ -12,6 +12,8 @@ Internal device features:
 - Set Backlight brightness level by pressing C/O and turning V/S encoder
 - Turn on/off all display digits by pressing C/O + CMDB and C/O + CWSB
 - Set Display brightness level by pressing C/O and turning RIGHT COURSE encoder
+- The version is displayed on the led segments digits
+
 
 ![Screenshot](https://user-images.githubusercontent.com/53659578/193845938-f0ef2aed-1326-4257-a87d-9a4b7bee52e3.png)
 
