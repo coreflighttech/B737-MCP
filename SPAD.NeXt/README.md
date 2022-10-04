@@ -11,7 +11,7 @@ Internal device features:
 - Turn on/off backlight by pressing C/O + CMDA and C/O + CWSA (MCP needs to be externaly powered)
 - Backlight brightness level setting by pressing C/O + V/S encoder
 - Turn on/off all display digits by pressing C/O + CMDB and C/O + CWSB
-- Display brightness level setting by pressing C/O + RIGHT COURSE
+- Display brightness level setting by pressing C/O + RIGHT COURSE encoder
 
 ![Screenshot](https://user-images.githubusercontent.com/53659578/193845938-f0ef2aed-1326-4257-a87d-9a4b7bee52e3.png)
 
