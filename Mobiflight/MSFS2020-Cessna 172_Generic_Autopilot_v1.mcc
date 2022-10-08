@@ -1,0 +1,949 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="350fb30d-0670-417a-b654-000c6ab2c11a">
+      <active>true</active>
+      <description>MSFS2020 N1 LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:CIRCUIT PITOT HEAT ON,Bool)" UUID="d296e004-e81b-42ad-8b09-c9c9664bf6bd" />
+        <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        <display type="Pin" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" pin="n1" pinBrightness="255" />
+        <preconditions />
+        <transformation active="True" expression="$" substrStart="0" substrEnd="0" />
+        <configrefs>
+          <configref active="False" ref="0af25488-7d92-413c-aaa7-7639ea9312da" placeholder="B" />
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="A" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="@" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="?" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="§" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="b43dfb5a-4298-4569-aff4-675060f4610a">
+      <active>true</active>
+      <description>MSFS2020 VORLOC LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT NAV1 LOCK,Bool)" UUID="4224fc05-b6e9-44d4-9468-c546a05a99c4" />
+        <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        <display type="Pin" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" pin="vorloc" pinBrightness="255" />
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="True" ref="0af25488-7d92-413c-aaa7-7639ea9312da" placeholder="B" />
+          <configref active="True" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="A" />
+          <configref active="True" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="@" />
+          <configref active="True" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="?" />
+          <configref active="True" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="§" />
+          <configref active="True" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="a6b54494-688b-4a8a-8ca4-82891f815510">
+      <active>true</active>
+      <description>MSFS2020 HDG LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT HEADING LOCK,Bool)" UUID="4eb2a124-0af9-45c5-a665-00b94bc0c207" />
+        <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        <display type="Pin" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" pin="hdg_sel" pinBrightness="255" />
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="0" />
+        <configrefs>
+          <configref active="False" ref="0af25488-7d92-413c-aaa7-7639ea9312da" placeholder="B" />
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="A" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="@" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+          <configref active="False" ref="cedfb872-fcd7-4cad-8a86-3904eec2cf36" placeholder="!" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="2e26163e-79ec-4ad9-91e7-60875c517f2f">
+      <active>true</active>
+      <description>MSFS2020 ALT HLD LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT ALTITUDE LOCK,Bool)" UUID="09df7de7-01e4-43ac-8015-9573385d8acb" />
+        <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        <display type="Pin" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" pin="alt_hld" pinBrightness="255" />
+        <preconditions />
+        <transformation active="True" expression="$" substrStart="0" substrEnd="0" />
+        <configrefs>
+          <configref active="False" ref="0af25488-7d92-413c-aaa7-7639ea9312da" placeholder="B" />
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="A" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3">
+      <active>true</active>
+      <description>MSFS2020 VS LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT VERTICAL HOLD,Bool)" UUID="3c5c84e5-a499-4a07-8d0c-f812004f60fe" />
+        <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        <display type="Pin" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" pin="vs" pinBrightness="255" />
+        <preconditions />
+        <transformation active="True" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="0af25488-7d92-413c-aaa7-7639ea9312da" placeholder="B" />
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="9723f4eb-b410-49cc-ac87-ea9f48919847">
+      <active>true</active>
+      <description>MSFS2020 L NAV LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:GPS DRIVES NAV1,Bool)" UUID="f6960682-68a0-4ba7-a19c-969b46f9c43b" />
+        <comparison active="True" value="1" operand="=" ifValue="0" elseValue="1" />
+        <display type="Pin" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" pin="lnav" pinBrightness="255" />
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="0" />
+        <configrefs>
+          <configref active="False" ref="0af25488-7d92-413c-aaa7-7639ea9312da" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="0af25488-7d92-413c-aaa7-7639ea9312da">
+      <active>true</active>
+      <description>MSFS2020 V NAV LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="LVAR" Value="" />
+        <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        <display type="Pin" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" pin="vnav" pinBrightness="255" />
+        <interpolation active="False">
+          <value x="1" y="1" />
+          <value x="1024" y="1024" />
+        </interpolation>
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="0" />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="cedfb872-fcd7-4cad-8a86-3904eec2cf36">
+      <active>true</active>
+      <description>MSFS2020 APP LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT APPROACH HOLD,Bool)" UUID="d7187230-2fd2-41a7-b22e-55e3e8a0ec12" />
+        <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        <display type="Pin" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" pin="app" pinBrightness="255" />
+        <preconditions />
+        <transformation active="True" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="b2fda687-502d-4e48-9c49-b084398ca83f">
+      <active>true</active>
+      <description>MSFS2020 SPEED LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:ngx_MCP_Speed, number)" UUID="7a93be52-5361-4eda-a3de-60c05e8ef837" />
+        <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        <display type="Pin" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" pin="speed" pinBrightness="255" />
+        <preconditions />
+        <transformation active="True" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="a24549fb-988e-430d-8c51-0d615de30cae">
+      <active>true</active>
+      <description>MSFS2020 CRS IZQ-COURSE</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:NAV OBS:1,Degrees)" UUID="6bbf319a-5031-477e-ba46-8a24936f7d25" />
+        <comparison active="False" value="1000" operand="&gt;=" ifValue="" elseValue="" />
+        <display type="Display Module" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" ledAddress="MAX1" ledConnector="1" ledModuleSize="8" ledPadding="True" ledPaddingChar="0" ledDigits="5,6,7" />
+        <interpolation active="False">
+          <value x="0" y="0" />
+          <value x="1024" y="1024" />
+        </interpolation>
+        <preconditions />
+        <transformation active="True" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="fa49ecf8-e340-4fe7-98ed-441e4e4bec30">
+      <active>true</active>
+      <description>MSFS2020 CRS DER-COURSE</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:NAV OBS:2,Degrees)" UUID="6bbf319a-5031-477e-ba46-8a24936f7d25" />
+        <comparison active="True" value="0" operand="=" ifValue="360" elseValue="" />
+        <display type="Display Module" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" ledAddress="MAX3" ledConnector="1" ledModuleSize="8" ledPadding="True" ledPaddingChar="0" ledDigits="0,1,2" />
+        <interpolation active="False">
+          <value x="0" y="0" />
+          <value x="1024" y="1024" />
+        </interpolation>
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="0" />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="f0eee4ed-f107-4f91-8a78-3e77135257fe">
+      <active>true</active>
+      <description>MSFS2020 VS</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT VERTICAL HOLD VAR,Feet/minute)" UUID="bc545a04-646d-41ce-a510-2c798f7dfe1d" />
+        <comparison active="True" value="-16900" operand="&lt;=" ifValue="0" elseValue="" />
+        <display type="Display Module" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" ledAddress="MAX3" ledConnector="1" ledModuleSize="8" ledPadding="True" ledPaddingChar=" " ledDigits="3,4,5,6,7" />
+        <interpolation active="False">
+          <value x="0" y="0" />
+          <value x="1024" y="1024" />
+        </interpolation>
+        <preconditions />
+        <transformation active="True" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+          <configref active="False" ref="0af25488-7d92-413c-aaa7-7639ea9312da" placeholder="!" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="102d44c1-67b6-4d16-9b7c-094e1dcfc162">
+      <active>false</active>
+      <description>MSFS2020 SPEED/IAS</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:ngx_SPDwindow, number)" UUID="6120d8a3-c644-48d2-9811-55d7abc7eca2" />
+        <comparison active="False" value="1" operand="&lt;" ifValue="888" elseValue="888" />
+        <display type="Display Module" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" ledAddress="MAX1" ledConnector="1" ledModuleSize="8" ledPadding="True" ledPaddingChar="0" ledDigits="0,1,2" />
+        <interpolation active="False">
+          <value x="65" y="0" />
+          <value x="85" y="1024" />
+        </interpolation>
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="912965e2-9be5-4506-9f21-d15b4e417fbd">
+      <active>true</active>
+      <description>MSFS2020 AT LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:ELECTRICAL MASTER BATTERY,Bool)" UUID="e48e8dce-5b66-4959-9aa0-af2839b9b849" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Pin" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" pin="at" pinBrightness="255" />
+        <preconditions />
+        <transformation active="True" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="a65bb0f2-7681-4123-82ec-2526f5aa545d">
+      <active>true</active>
+      <description>MSFS2020 FD DERECHO</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT FLIGHT DIRECTOR ACTIVE,Bool)" UUID="2ac729ee-dcb3-4103-b61b-da3913a471e2" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Pin" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" pin="fdL" pinBrightness="255" />
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="70cd40d4-e38f-49b7-a673-baafed9cdedb">
+      <active>false</active>
+      <description>MSFS2020 FD FO LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:ngx_MCP_FDRight,Number)" UUID="3acf6b54-4506-417b-8a96-76e5bd6ba8ae" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Pin" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" pin="fdR" pinBrightness="255" />
+        <interpolation active="False">
+          <value x="0" y="0" />
+          <value x="1024" y="1024" />
+        </interpolation>
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="c3a5a79e-e8c5-48b1-8135-7e1ec64d253e">
+      <active>true</active>
+      <description>MSFS2020 CMDA PILOTO ON/OFF</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT MASTER,Bool)" UUID="59411677-275b-4f69-82d2-eb93c20db76c" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Pin" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" pin="cmda" pinBrightness="255" />
+        <preconditions />
+        <transformation active="False" expression="(A:AUTOPILOT AVAILABLE,Bool)" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="0c4b9d26-da77-494b-af69-f63a1f084a5e">
+      <active>true</active>
+      <description>MSFS2020 CMDB LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT BACKCOURSE HOLD,Bool)" UUID="3b51d4d9-6c42-4bd1-8158-5358178a9d83" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Pin" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" pin="cmdb" pinBrightness="255" />
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="fd9d233f-cd22-42a3-8582-63e0eb2094db">
+      <active>false</active>
+      <description>MSFS2020 CWSA LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:ngx_MCP_CWSA, number)" UUID="741671d6-3001-4c21-b89a-159e352fa476" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Pin" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" pin="cwsa" pinBrightness="255" />
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="c59765d8-ead2-4abb-9269-d9a20c7cee64">
+      <active>false</active>
+      <description>MSFS2020 CWSB LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:ngx_MCP_CWSB, number)" UUID="99bc86bd-10a5-42f8-8563-d933222e6ea0" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Pin" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" pin="cwsb" pinBrightness="255" />
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="37d3ac6f-71cd-4fd1-b9e6-9710dea5a9f6">
+      <active>true</active>
+      <description>MSFS LVL CHG LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT FLIGHT LEVEL CHANGE,bool)" UUID="276c8b8b-c886-4653-b531-b9eb4ca661d3" />
+        <comparison active="True" value="" operand="" ifValue="" elseValue="" />
+        <display type="Pin" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" pin="lvl_chg" pinBrightness="255" />
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="00f7f626-7a15-4362-9cf3-c02577ff2edc">
+      <active>true</active>
+      <description>MSFS2020 ALTITUDE</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT ALTITUDE LOCK VAR,Feet)" UUID="7ac4737f-b97d-4bbb-af35-7067a5f1c1aa" />
+        <comparison active="False" value="100" operand="&lt;" ifValue="10000" elseValue="" />
+        <display type="Display Module" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" ledAddress="MAX2" ledConnector="1" ledModuleSize="8" ledPadding="True" ledPaddingChar=" " ledDigits="0,1,2,3,4" />
+        <preconditions />
+        <transformation active="False" expression="$*3.28084/65536" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="c257b3c8-64d3-4b0f-92e5-d2571b32a1dc">
+      <active>true</active>
+      <description>MSFS2020 HEADING</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT HEADING LOCK DIR,Degrees)" UUID="e47210e8-7db4-4980-9f57-b3682fb3742d" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Display Module" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" ledAddress="MAX2" ledConnector="1" ledModuleSize="8" ledPadding="True" ledPaddingChar="0" ledDigits="5,6,7" />
+        <preconditions />
+        <transformation active="False" expression="($ * 360) / 65536" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="178d0a6d-6d4a-4e72-8c75-9d26612ec4ab">
+      <active>true</active>
+      <description>MSFS2020 BACKLIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:LIGHT PANEL ON,Bool)" UUID="9359d1cc-64a1-4094-bb74-666312f55da9" />
+        <comparison active="True" value="-1" operand="!=" ifValue="1" elseValue="1" />
+        <display type="Pin" serial="CORE_MCP_v17/ SN-07e-fda" trigger="normal" pin="Backlight_Pin" pinBrightness="255" />
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+  </outputs>
+  <inputs>
+    <config guid="d87802ce-41b2-42fa-8ee3-59439f00b3fe">
+      <active>true</active>
+      <description>MSFS2020 HDG ENC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="ENC_HEADING" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;K:HEADING_BUG_INC)" presetId="a4603efd-db94-46a3-a0f6-6f2afa6d652d" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;K:HEADING_BUG_DEC)" presetId="790a3a83-6a31-4ff0-9c24-3215c473aed4" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="c0aafcb3-35fd-496a-9b76-40baeec37986">
+      <active>true</active>
+      <description>MSFS2020 CRS L ENC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="ENC_CRS_L" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_PFD_CRS_INC)" presetId="3b8cdf53-086f-4c56-810b-ffb66099fa43" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_PFD_CRS_DEC)" presetId="5e79e34d-0346-447a-9f07-ce69d65d9a36" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="ec3cce46-c19b-4c1a-bb93-3843347b5552">
+      <active>true</active>
+      <description>MSFS2020 CRS R ENC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="ENC_CRS_R" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_CRS_DEC)" presetId="3675e7fa-3a4a-4aec-a122-9cf3718d0159" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_CRS_INC)" presetId="5d13396a-f175-45bb-89a4-5173f7000ca6" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="a691e256-3063-43c4-851c-31e443039f3e">
+      <active>true</active>
+      <description>MSFS2020 ALT ENC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="ENC_ALTITUDE" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;K:AP_ALT_VAR_INC)" presetId="6b70bc27-97bf-499e-ba49-3d63984aa593" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;K:AP_ALT_VAR_DEC)" presetId="035b1f1d-1e4e-4809-9713-07fe5ab0581d" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="1d9f9cb6-2084-4bed-b71a-671905a713be">
+      <active>true</active>
+      <description>MSFS2020 VS ENC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="ENC_VS" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;K:AP_VS_VAR_DEC)" presetId="2fdf3342-238b-4055-9fd9-97aaa666e278" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;K:AP_VS_VAR_INC)" presetId="49533c9c-bcb5-42f6-9c23-353a4a89e53b" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="9081a998-9392-4350-a036-81d6823c4a63">
+      <active>false</active>
+      <description>MSFS2020 SPEED IAS ENC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="ENC_IASMACH" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="38407 (&gt;K:ROTOR_BRAKE)" presetId="1714aeb2-fea4-44b2-8501-ab7af9abac3d" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="38408 (&gt;K:ROTOR_BRAKE)" presetId="c704ce91-2da3-4e77-8efc-eee33deea16d" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="c24f24e9-3965-4f53-9d26-ad4a81aba96a">
+      <active>true</active>
+      <description>MSFS2020 ALT HOLD SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="ALT_HLD" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_ALT_HOLD)" presetId="a946ee03-bd6d-4ed4-b1c2-72d26df93848" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="f934a554-2cf4-4abb-aa8d-54592cd9e4c5">
+      <active>true</active>
+      <description>MSFS2020 VS SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="VS" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_PANEL_VS_HOLD)" presetId="1f6f5a4d-6b7d-4fea-bf7b-3b330a6f94d3" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="c1573302-eb51-48a0-a343-c3ee09758de0">
+      <active>true</active>
+      <description>MSFS2020 LNAV SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="LNAV" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_PFD_SOFTKEYS_6)" presetId="c177c0bf-78d9-47b8-b1f5-906e0126fe85" />
+          <onRelease type="MSFS2020CustomInputAction" command="" presetId="-" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c1573302-eb51-48a0-a343-c3ee09758de0">
+      <active>true</active>
+      <description>MSFS2020 VNAV SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="VNAV" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="38601 (&gt;K:ROTOR_BRAKE)" presetId="2d1fb0c2-db2f-42d1-b806-e62be1620d25" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c1573302-eb51-48a0-a343-c3ee09758de0">
+      <active>true</active>
+      <description>MSFS2020 LVL CHG SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="LVL_CHG" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;H:APGA_FLC)" presetId="-" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="87eb88ed-1841-4a42-8a3e-5ef9002dd726">
+      <active>true</active>
+      <description>MSFS2020 VOR LOC SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="VORLOC" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_NAV1_HOLD)" presetId="f8ec79b7-46e7-424f-b715-477343d3e151" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="3274e99b-f79c-4ee0-9fb5-092f7430bb55">
+      <active>true</active>
+      <description>MSFS2020 APP SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="APP" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_APR_HOLD)" presetId="de7fab05-76c5-4fc1-a86a-e32a31c5aff3" />
+          <onRelease type="MSFS2020CustomInputAction" command="" presetId="-" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c339815b-35ac-42b1-9a4f-ef4a9506caa6">
+      <active>false</active>
+      <description>MSFS2020 CO SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="CO" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="38301 (&gt;K:ROTOR_BRAKE)" presetId="d4c52484-d475-4d6b-906f-4a117f5f3c57" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="16c0e863-89d8-4fbe-ab7a-271702b499fb">
+      <active>true</active>
+      <description>MSFS2020 CMD A SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="CMDA" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(A:AUTOPILOT DISENGAGED, Bool) ! if{ (&gt;K:AP_MASTER) (A:AUTOPILOT MASTER, Bool) if{ (A:AUTOPILOT FLIGHT DIRECTOR ACTIVE, Bool) ! if{ 1 (&gt;K:TOGGLE_FLIGHT_DIRECTOR) } } (A:AUTOPILOT MASTER, bool) ! if{ (H:Generic_Autopilot_Manual_Off) } }" presetId="92ea3094-6964-4c44-a131-fbdbf8ed0eb4" />
+          <onRelease type="MSFS2020CustomInputAction" command="" presetId="-" />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="16c0e863-89d8-4fbe-ab7a-271702b499fb">
+      <active>true</active>
+      <description>MSFS2020 CMD B SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="CMDB" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:BC_BTN) (L:BC_MODE, bool) ! (&gt;L:BC_MODE)" presetId="8db3b013-b784-4417-9c99-a4ce1af7640c" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="09f03e6d-b352-4033-8aad-52949d616bd0">
+      <active>true</active>
+      <description>MSFS2020 HDG SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="HDG_SEL" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_PANEL_HEADING_HOLD)" presetId="3f56b530-ef2e-4430-8811-ad9b135309f4" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="09f03e6d-b352-4033-8aad-52949d616bd0">
+      <active>true</active>
+      <description>MSFS2020 N1 SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="N1" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (L:DEICE_Pitot_1) ! (&gt;K:2:PITOT_HEAT_SET)" presetId="c953986c-6f8f-4fc6-9e65-7f40f67127b2" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="09f03e6d-b352-4033-8aad-52949d616bd0">
+      <active>true</active>
+      <description>MSFS2020 SPD INTV SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="SPD_INTV" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="38701 (&gt;K:ROTOR_BRAKE)" presetId="c29d0947-22ba-4d87-8504-17cd8f14f592" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="09f03e6d-b352-4033-8aad-52949d616bd0">
+      <active>true</active>
+      <description>MSFS2020 ALT INTV SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="ALT_INTV" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="88501 (&gt;K:ROTOR_BRAKE)" presetId="69bcd7a5-7121-40e7-9666-8cec7291de98" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="09f03e6d-b352-4033-8aad-52949d616bd0">
+      <active>false</active>
+      <description>MSFS2020 CWSA SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="CWSA" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="40401 (&gt;K:ROTOR_BRAKE)" presetId="02de27f2-5405-481a-8bc8-784c904dc7a0" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="09f03e6d-b352-4033-8aad-52949d616bd0">
+      <active>false</active>
+      <description>MSFS2020 CWS B SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="CWSB" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="40501 (&gt;K:ROTOR_BRAKE)" presetId="fdbfa8bf-8b0f-4132-b46c-d948642ec473" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="6a608a4d-0eeb-45e9-9805-e0353884109f">
+      <active>true</active>
+      <description>MSFS2020 IAS HOLD</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="SPEED" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="EventIdInputAction" eventId="70014" param="2147483647" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="be1ad87d-0e75-4856-b77c-507fb7201923">
+      <active>false</active>
+      <description>MSFS DISENGAGE BAR </description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="DISENGAGE" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="40601 (&gt;K:ROTOR_BRAKE)" presetId="2e6d511a-c65f-4945-b021-f7e6cf077ebb" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="be1ad87d-0e75-4856-b77c-507fb7201923">
+      <active>false</active>
+      <description>MSFS2020 R F/D</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="FDR" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="" presetId="-" />
+          <onRelease type="MSFS2020CustomInputAction" command="" presetId="-" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="be1ad87d-0e75-4856-b77c-507fb7201923">
+      <active>true</active>
+      <description>MSFS2020 L F/D</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="FDL" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(A:AUTOPILOT MASTER, bool) ! if{ 0 (&gt;K:TOGGLE_FLIGHT_DIRECTOR) }" presetId="acff9234-b036-4b01-b2e7-0c232440e91f" />
+          <onRelease type="MSFS2020CustomInputAction" command="(A:AUTOPILOT MASTER, bool) ! if{ 0 (&gt;K:TOGGLE_FLIGHT_DIRECTOR) }" presetId="acff9234-b036-4b01-b2e7-0c232440e91f" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b8a2f555-b7e3-45be-8684-782551954e3c">
+      <active>true</active>
+      <description>MSFS2020 AT/ARM</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="AT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(A:ELECTRICAL MASTER BATTERY:1, Bool) 0 == if{ 1 (&gt;K:TOGGLE_MASTER_BATTERY) }" presetId="1cd8a184-3533-4f10-9547-66f786350453" />
+          <onRelease type="MSFS2020CustomInputAction" command="(A:ELECTRICAL MASTER BATTERY:1, Bool) 1 == if{ 1 (&gt;K:TOGGLE_MASTER_BATTERY) }" presetId="8bec73e0-1b2f-4cdf-b5a7-38705efb0fb8" />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="5780e6d3-ae7b-49f6-bbd9-4e2b53281774">
+      <active>false</active>
+      <description>MSFS2020 SPEED IAS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-07e-fda" name="SPD" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="38201  (&gt;K:ROTOR_BRAKE)" presetId="37f8ae3e-c803-48b2-9471-d6e432ba67ee" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>
