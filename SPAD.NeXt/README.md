@@ -1,5 +1,5 @@
 
-Special thanks to The1L2P (Discord ID: 1L2P#5598) for his excellent work!
+Special thanks to @1L2P (Discord ID: 1L2P#5598) for his excellent work!
 
 Firmware tested with SPAD_v0.9.12.92 Full Release
 
