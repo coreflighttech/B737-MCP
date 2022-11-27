@@ -19,10 +19,13 @@ Internal device features:
 
 ![Screenshot](https://user-images.githubusercontent.com/53659578/193845938-f0ef2aed-1326-4257-a87d-9a4b7bee52e3.png)
 
+R4:
+Official VIP PID registration, State scan feature is now enabled, new VIRTUAL_POWER variable is available
 
-// r02 Fix for an overflow issue with the altitude display over 32768 feet
-
-MCP R03d:
+R03d:
 - clean some potential display overflow
 - add negative values for displays if you need them in other aircraft
 - fix decimal point missing in IAS/MACH display (just need to send a 0.00 format value)
+
+R02:
+- Fix for an overflow issue with the altitude display over 32768 feet
