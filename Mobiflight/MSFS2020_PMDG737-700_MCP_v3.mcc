@@ -928,8 +928,8 @@
       <description>MSFS2020 R F/D</description>
       <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.6.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-1dc-64c" name="FDR" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
-          <onPress type="MSFS2020CustomInputAction" command="40701 (&gt;K:ROTOR_BRAKE)" presetId="f0f814c6-9506-458c-a897-a999bdf93e31" />
-          <onRelease type="MSFS2020CustomInputAction" command="40701 (&gt;K:ROTOR_BRAKE)" presetId="f0f814c6-9506-458c-a897-a999bdf93e31" />
+          <onPress type="MSFS2020CustomInputAction" command="(L:ngx_MCP_FDRight,bool) ! if{ 40701 (&gt;K:ROTOR_BRAKE) }" presetId="a5c451c8-fb91-4faf-b2eb-5b0b864750a9" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:ngx_MCP_FDRight,bool) if{ 40701 (&gt;K:ROTOR_BRAKE) }" presetId="6cb9f96d-e1de-4de8-b180-2842183367eb" />
         </button>
         <preconditions />
         <configrefs />
@@ -940,8 +940,8 @@
       <description>MSFS2020 L F/D</description>
       <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.6.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-1dc-64c" name="FDL" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
-          <onPress type="MSFS2020CustomInputAction" command="37801 (&gt;K:ROTOR_BRAKE)" presetId="cae7eba9-514d-48dc-b4c5-1fbba5dc9bb6" />
-          <onRelease type="MSFS2020CustomInputAction" command="37801 (&gt;K:ROTOR_BRAKE)" presetId="cae7eba9-514d-48dc-b4c5-1fbba5dc9bb6" />
+          <onPress type="MSFS2020CustomInputAction" command="(L:ngx_MCP_FDLeft,bool) ! if{ 37801 (&gt;K:ROTOR_BRAKE) }" presetId="241bdcb9-4c9e-4632-b5da-4fae32044641" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:ngx_MCP_FDLeft,bool) if{ 37801 (&gt;K:ROTOR_BRAKE) }" presetId="99c6200d-cc7f-4fe9-92a2-253a07501f19" />
         </button>
         <preconditions />
         <configrefs />
@@ -952,8 +952,8 @@
       <description>MSFS2020 AT/ARM</description>
       <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.6.0.0, Culture=neutral, PublicKeyToken=null" serial="CORE_MCP_v17/ SN-1dc-64c" name="AT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
-          <onPress type="MSFS2020CustomInputAction" command="38001  (&gt;K:ROTOR_BRAKE)" presetId="08fd0f26-5151-40a9-8464-895fd35b69db" />
-          <onRelease type="MSFS2020CustomInputAction" command="38001  (&gt;K:ROTOR_BRAKE)" presetId="08fd0f26-5151-40a9-8464-895fd35b69db" />
+          <onPress type="MSFS2020CustomInputAction" command="(L:ngx_MCP_ATArm,bool) ! if{ 38001  (&gt;K:ROTOR_BRAKE) }" presetId="9f8ed3bc-de96-40c4-8c7c-e97180331c6a" />
+          <onRelease type="MSFS2020CustomInputAction" command="(L:ngx_MCP_ATArm,bool) if{ 38001  (&gt;K:ROTOR_BRAKE) }" presetId="9f693441-1419-4e1e-9e3c-6a2a2fe6f0d1" />
         </button>
         <preconditions />
         <configrefs>
