@@ -6,6 +6,7 @@ Firmware tested with SPAD_v0.9.12.92 Full Release
 MCP communicates with SPAD.neXt via SerialV2.
 Baud Rate is 115200
 
+How to install firmware -> https://github.com/coreflighttech/B737-MCP/tree/main/Uploader
 
 Pre-config is available as Snippet #6477 or "Flight Core Technologies PMDG 737 MCP"
 
