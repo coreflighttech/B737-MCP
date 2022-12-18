@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ModuleName>CORE_MCP_v17</ModuleName>
+  <ModuleName>CORE_MCP_v17_3</ModuleName>
   <PowerSavingTime>600</PowerSavingTime>
   <Button Name="FDL" Pin="50" />
   <Button Name="AT" Pin="62" />
@@ -50,4 +50,5 @@
   <Output Name="fdR" Pin="24" />
   <Output Name="at" Pin="63" />
   <Output Name="Backlight_Pin" Pin="2" />
+  <Button Name="HeadingEnc_Btn" Pin="54" />
 </Config>
