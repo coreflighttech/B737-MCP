@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <MobiflightConnector>
   <outputs>
     <config guid="350fb30d-0670-417a-b654-000c6ab2c11a">
@@ -260,7 +260,7 @@
       <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <source type="FSUIPC" offset="0x65D0" offsetType="Integer" size="2" mask="0xFFFF" bcdMode="False" />
         <modifiers>
-          <transformation active="False" expression="if($=0,-10000,$)" substrStart="0" substrEnd="7" />
+          <transformation active="True" expression="if($!=-16960,$,0)" substrStart="0" substrEnd="7" />
           <comparison active="True" value="0" operand="=" ifValue="     " elseValue="" />
           <interpolation active="False">
             <value x="0" y="0" />
