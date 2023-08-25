@@ -10,6 +10,18 @@ How to install firmware -> https://github.com/coreflighttech/B737-MCP/tree/main/
 
 Pre-config is available as Snippet #7614 or "PMDG 737 for Core Flight Tech MCP"
 
+R09: Internal device features:
+- Send (-1) to clear CRS, HDG or IAS displays
+- Send (-9999) to clear VS or ALT displays
+- Send (-111) to display dashes on IAS or HDG displays
+- Send (-11111) to display dashes on VS display
+- Turn on/off backlight by pressing C/O + CMDA and C/O + CWSA (MCP needs to be externaly powered)
+- Set Backlight brightness level by pressing C/O and turning V/S encoder
+- Turn on/off all display digits by pressing C/O + CMDB and C/O + CWSB
+- Set Display brightness level by pressing C/O and turning RIGHT COURSE encoder
+- Soft reset by pressing N1 and SPEED
+
+
 R07: Internal device features:
 - Turn on/off backlight by pressing C/O + CMDA and C/O + CWSA (MCP needs to be externaly powered)
 - Set Backlight brightness level by pressing C/O and turning V/S encoder
