@@ -117,7 +117,7 @@
       <active>true</active>
       <description>X-Plane AP APP Press LED</description>
       <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-        <source type="XplaneDataRef" path="laminar/B738/autopilot/app_pos" />
+        <source type="XplaneDataRef" path="laminar/B738/autopilot/app_status" />
         <modifiers>
           <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
