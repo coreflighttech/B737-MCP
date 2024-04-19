@@ -58,14 +58,23 @@ R06: Internal device features:
 
 *** History ***
  -> r01 Initial release 
+ 
  -> r02 Overflow issue fix when altitude to display is over 32768 feet (15 bits were not enougth ;-)) 
+ 
  -> r03 clean overflow with int32 and not double, add negative values for displays, fix decimal point missing in IAS/MACH display, slow down checks other than encoders, SPAD 0.9.12.95 Serial V2 update,
+ 
  -> r04 VIP PID SPAD registration, State scan enabled, new VIRTUAL_POWER variable exposed 
+ 
  -> r05 SPAD serial init workarounds, add soft reset by pressing N1 and SPEED
+ 
  -> r06 SPAD GUI Led state enhancement
+ 
  -> r07 SPAD 0.9.13.7 udpate, backlight and leds/digits auto turn OFF on 300s SPAD no ping timeout, remove negative display feature on CRS, IAS & HDG (was confusing, send any <0 value to clear digits)
+ 
  -> r08 The "Darewell" Incident: 0.67 MACH display mystery fix 
+ 
  -> r09 A320 DASH display option sending -11111 (V/S) or -111 (HDG, IAS)
+ 
  -> r10 Send -99 to diplay 'Std' on CRS left or right displays 
 
 
