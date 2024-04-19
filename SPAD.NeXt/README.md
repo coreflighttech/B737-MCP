@@ -15,7 +15,7 @@ R10: Internal device features:
 - Send (-9999) to clear VS or ALT displays
 - Send (-111) to display dashes on IAS or HDG displays (---)
 - Send (-11111) to display dashes on VS display (-----)
-- Send -99 to diplay 'Std' on left or right CRS displays
+- Send (-99) to display 'Std' on left or right CRS displays
 - Turn on/off backlight by pressing C/O + CMDA and C/O + CWSA (MCP needs to be externaly powered)
 - Set Backlight brightness level by pressing C/O and turning V/S encoder
 - Turn on/off all display digits by pressing C/O + CMDB and C/O + CWSB
