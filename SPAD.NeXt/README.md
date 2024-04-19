@@ -57,6 +57,7 @@ R06: Internal device features:
 ![Screenshot](https://user-images.githubusercontent.com/53659578/193845938-f0ef2aed-1326-4257-a87d-9a4b7bee52e3.png)
 
 *** History ***
+
  -> r01 Initial release 
  
  -> r02 Overflow issue fix when altitude to display is over 32768 feet (15 bits were not enougth ;-)) 
