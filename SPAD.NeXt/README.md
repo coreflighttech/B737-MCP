@@ -1,16 +1,15 @@
 
 Special thanks to @1L2P (Discord ID: 1L2P#5598) for his excellent work!
 
-Firmware tested with SPAD_v0.9.12.92 Full Release
+# 2024-07-23 R20 release for SPAD 0.9.18.4+ 
 
-MCP communicates with SPAD.neXt via SerialV2.
+CFT_737_MCP_SPAD_1L2P_R20_115200.ino.hex
+
+- Serial device init improvements
+
 Baud Rate is 115200
 
-How to install firmware -> https://github.com/coreflighttech/B737-MCP/tree/main/Uploader
-
-Available SPAD complete device Snippet #10858
-
-R10: Internal device features:
+Internal device features:
 - Send (-1) to clear CRS, HDG or IAS displays
 - Send (-9999) to clear VS or ALT displays
 - Send (-111) to display dashes on IAS or HDG displays (---)
@@ -26,7 +25,13 @@ To manage MCP digits and backlight brightness from SPAD, search for these variab
 - DISPLAY_BRI : MCP digits brightness from 0 to 15 (DEVICE:1L2P/CFT737MCP/DISPLAY_BRI)
 - BACKLIGHT_BRI : MCP backlight brightness from 0 to 255 (DEVICE:1L2P/CFT737MCP/BACKLIGHT_BRI)
 
-*** Old Firmware ****
+Available SPAD complete device Snippet #10858
+
+How to install firmware -> https://github.com/coreflighttech/B737-MCP/tree/main/Uploader
+
+![Screenshot](https://user-images.githubusercontent.com/53659578/193845938-f0ef2aed-1326-4257-a87d-9a4b7bee52e3.png)
+
+# Previous Firmware
 
 R09: Internal device features:
 - Send (-1) to clear CRS, HDG or IAS displays
@@ -54,9 +59,6 @@ R06: Internal device features:
 - The version is displayed on the led segments digits
 - Pre-config is available as Snippet #6477 or "Flight Core Technologies PMDG 737 MCP"
 
-![Screenshot](https://user-images.githubusercontent.com/53659578/193845938-f0ef2aed-1326-4257-a87d-9a4b7bee52e3.png)
-
-*** History ***
 
  -> r01 Initial release 
  
