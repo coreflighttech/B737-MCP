@@ -1,0 +1,1093 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="350fb30d-0670-417a-b654-000c6ab2c11a">
+      <active>true</active>
+      <description>MSFS2020 iFly N1 LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:VC_N1_SW_LIGHT_VAL,number)" UUID="8ace0901-9573-4c15-bb21-27513d183026" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="$" />
+          <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" pin="n1" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="0af25488-7d92-413c-aaa7-7639ea9312da" placeholder="B" testvalue="1" />
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="A" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="@" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="?" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="§" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="b43dfb5a-4298-4569-aff4-675060f4610a">
+      <active>true</active>
+      <description>MSFS2020 iFly VORLOC LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:VC_VOR_LOC_SW_LIGHT_VAL,number)" UUID="a18e61a6-317c-4e56-89b5-7e6f746c72a4" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="False" expression="$" />
+          <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" pin="vorloc" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="True" ref="0af25488-7d92-413c-aaa7-7639ea9312da" placeholder="B" testvalue="1" />
+          <configref active="True" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="A" testvalue="1" />
+          <configref active="True" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="@" testvalue="1" />
+          <configref active="True" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="?" testvalue="1" />
+          <configref active="True" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="§" testvalue="1" />
+          <configref active="True" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="a6b54494-688b-4a8a-8ca4-82891f815510">
+      <active>true</active>
+      <description>MSFS2020 iFly HDG LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:VC_HDG_SEL_SW_LIGHT_VAL,number)" UUID="81e2bb94-f949-433e-8158-0e4af8d714d4" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="False" expression="$" />
+          <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" pin="hdg_sel" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="0af25488-7d92-413c-aaa7-7639ea9312da" placeholder="B" testvalue="1" />
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="A" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="@" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="48e38ed2-fc9b-4c6a-963d-0ab0493ab9ca">
+      <active>false</active>
+      <description>MSFS2020 iFly BANK ANGLE - DATA REFERANCE -</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:switch_389_73X, number)" UUID="edadfa70-53ac-4dbf-bbf7-a26cba28d97a" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="$/10" />
+          <comparison active="False" value="30" operand="=" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="-" serial="-" trigger="normal" pin="" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2e26163e-79ec-4ad9-91e7-60875c517f2f">
+      <active>true</active>
+      <description>MSFS2020 iFly ALT HLD LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:VC_ALT_HLD_SW_LIGHT_VAL,number)" UUID="07f90d87-4fc0-4a2e-9f33-0c709846fa32" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="$" />
+          <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" pin="alt_hld" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="0af25488-7d92-413c-aaa7-7639ea9312da" placeholder="B" testvalue="1" />
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="A" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3">
+      <active>true</active>
+      <description>MSFS2020 iFly VS LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:VC_VS_SW_LIGHT_VAL,number)&#xA;" UUID="bf5181ca-15bb-4742-87cb-0a5e91e57ede" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="$" />
+          <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" pin="vs" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="0af25488-7d92-413c-aaa7-7639ea9312da" placeholder="B" testvalue="1" />
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="9723f4eb-b410-49cc-ac87-ea9f48919847">
+      <active>true</active>
+      <description>MSFS2020 iFly L NAV LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:VC_LNAV_SW_LIGHT_VAL,number)" UUID="60560be4-94ca-42ea-9eb8-76988787a616" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="False" expression="$" />
+          <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" pin="lnav" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="0af25488-7d92-413c-aaa7-7639ea9312da" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="0af25488-7d92-413c-aaa7-7639ea9312da">
+      <active>true</active>
+      <description>MSFS2020 iFly V NAV LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:VC_VNAV_SW_LIGHT_VAL,number)" UUID="5307cec6-99b1-4eb4-b71a-6bcbe9fa74e1" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="False" expression="$" />
+          <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" pin="vnav" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="cedfb872-fcd7-4cad-8a86-3904eec2cf36">
+      <active>true</active>
+      <description>MSFS2020 iFly APP LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:VC_APP_SW_LIGHT_VAL,number)" UUID="2a7f4a12-e21d-4d38-8955-fb2b52c48bb9" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="$" />
+          <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" pin="app" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="b2fda687-502d-4e48-9c49-b084398ca83f">
+      <active>true</active>
+      <description>MSFS2020 iFly SPEED LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:VC_SPEED_SW_LIGHT_VAL,number)" UUID="1ac4c4bc-1baf-4d4d-bec5-b7ec6e66bacc" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="$" />
+          <comparison active="False" value="" operand="=" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" pin="speed" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="a24549fb-988e-430d-8c51-0d615de30cae">
+      <active>false</active>
+      <description>MSFS2020 iFly CRS LEFT-CPT DISPLAY</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:ngx_CRSwindowL, number)" UUID="-" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="$" />
+          <comparison active="False" value="1000" operand="&gt;=" ifValue="" elseValue="" />
+          <interpolation active="False">
+            <value x="0" y="0" />
+            <value x="1024" y="1024" />
+          </interpolation>
+        </modifiers>
+        <display type="Display Module" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" ledAddress="MAX1" ledConnector="1" ledModuleSize="8" ledPadding="True" ledPaddingChar="0" ledDigits="5,6,7" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="fa49ecf8-e340-4fe7-98ed-441e4e4bec30">
+      <active>false</active>
+      <description>MSFS2020 iFly CRS RIGHT-FO DISPLAY</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:ngx_CRSwindowR, number)" UUID="8a0ac510-9a2e-4a04-8494-c87bd81531ec" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="False" expression="$" />
+          <comparison active="True" value="0" operand="=" ifValue="000" elseValue="" />
+          <interpolation active="False">
+            <value x="0" y="0" />
+            <value x="1024" y="1024" />
+          </interpolation>
+        </modifiers>
+        <display type="Display Module" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" ledAddress="MAX3" ledConnector="1" ledModuleSize="8" ledPadding="True" ledPaddingChar="0" ledDigits="0,1,2" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="f0eee4ed-f107-4f91-8a78-3e77135257fe">
+      <active>true</active>
+      <description>MSFS2020 iFly VERTICAL SPEED DISPLAY</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT VERTICAL HOLD VAR,Feet/minute)" UUID="d4802436-972e-4b7d-9910-a618eb1d9e02" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="if($!=-16960,$,0)" />
+          <comparison active="True" value="0" operand="=" ifValue="     " elseValue="" />
+          <interpolation active="False">
+            <value x="0" y="0" />
+            <value x="1024" y="1024" />
+          </interpolation>
+        </modifiers>
+        <display type="Display Module" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" ledAddress="MAX3" ledConnector="1" ledModuleSize="8" ledPadding="True" ledPaddingChar=" " ledDigits="3,4,5,6,7" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="102d44c1-67b6-4d16-9b7c-094e1dcfc162">
+      <active>false</active>
+      <description>MSFS2020 iFly SPEED/IAS DISPLAY</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:VC_IASMACH_SW_VAL,number)" UUID="52eccddd-65fe-4e29-92fd-39d0a847d5cf" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="if($=-1,'   ',$)" />
+          <comparison active="True" value="1" operand="&lt;" ifValue="'.'+Round($*100,2)+0.1" elseValue="$" />
+          <interpolation active="False">
+            <value x="65" y="0" />
+            <value x="85" y="1024" />
+          </interpolation>
+        </modifiers>
+        <display type="Display Module" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" ledAddress="MAX1" ledConnector="1" ledModuleSize="8" ledPadding="True" ledPaddingChar=" " ledDigits="0,1,2" />
+        <preconditions>
+          <precondition type="config" active="false" ref="29bd70ce-5b6d-497e-b2d3-b52c7a27f024" operand="&gt;" value="100" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="912965e2-9be5-4506-9f21-d15b4e417fbd">
+      <active>true</active>
+      <description>MSFS2020 iFly AT LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:VC_AT_ARM_LIGHT_VAL,number)" UUID="9f1b43bf-c762-40b9-af64-1372e13182d1" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="True" expression="$" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" pin="at" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="a65bb0f2-7681-4123-82ec-2526f5aa545d">
+      <active>true</active>
+      <description>MSFS2020 iFly FD CPT LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:VC_MA_1_LIGHT_VAL,number)" UUID="c344d04c-a967-484b-ab4b-edeb276feffe" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="False" expression="$" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" pin="fdL" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="70cd40d4-e38f-49b7-a673-baafed9cdedb">
+      <active>true</active>
+      <description>MSFS2020 iFly FD FO LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:VC_MA_2_LIGHT_VAL,number)" UUID="21eb07cc-b8d6-4f22-9546-886e55056c10" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="False" expression="$" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" pin="fdR" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="c3a5a79e-e8c5-48b1-8135-7e1ec64d253e">
+      <active>true</active>
+      <description>MSFS2020 iFly CMDA LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:VC_CMD_A_SW_LIGHT_VAL,number)" UUID="2bf3b3ef-313c-4151-9c24-26b853631b4c" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="False" expression="(A:AUTOPILOT AVAILABLE,Bool)" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" pin="cmda" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="0c4b9d26-da77-494b-af69-f63a1f084a5e">
+      <active>true</active>
+      <description>MSFS2020 iFly CMDB LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:VC_CMD_B_SW_LIGHT_VAL,number)" UUID="da5cc491-d0c7-44a3-bcdc-43d71845b926" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="False" expression="$" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" pin="cmdb" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="fd9d233f-cd22-42a3-8582-63e0eb2094db">
+      <active>true</active>
+      <description>MSFS2020 iFly CWSA LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:VC_CWS_A_SW_LIGHT_VAL,number)" UUID="cb390f64-2353-47e7-a40d-e4e2a8916e69" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="False" expression="$" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" pin="cwsa" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="c59765d8-ead2-4abb-9269-d9a20c7cee64">
+      <active>true</active>
+      <description>MSFS2020 iFly CWSB LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:VC_CWS_B_SW_LIGHT_VAL,number)" UUID="677b0195-759c-45fd-a78d-4d4269f9f75e" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="False" expression="$" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" pin="cwsb" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="§" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="37d3ac6f-71cd-4fd1-b9e6-9710dea5a9f6">
+      <active>true</active>
+      <description>MSFS2020 iFly LVL CHG LIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:VC_LVL_CHG_SW_LIGHT_VAL,number)" UUID="5b197110-b6c3-45ef-b1e9-d1307f440a1f" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="False" expression="$" />
+          <comparison active="True" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" pin="lvl_chg" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="00f7f626-7a15-4362-9cf3-c02577ff2edc">
+      <active>true</active>
+      <description>MSFS2020 iFly ALTITUDE</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT ALTITUDE LOCK VAR:3, Feet)" UUID="73feae96-0cfe-497b-ab02-820ec2396f07" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="False" expression="$*3.28084/65536" />
+          <comparison active="False" value="100" operand="&lt;" ifValue="10000" elseValue="" />
+        </modifiers>
+        <display type="Display Module" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" ledAddress="MAX2" ledConnector="1" ledModuleSize="8" ledPadding="True" ledPaddingChar=" " ledDigits="0,1,2,3,4" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="c257b3c8-64d3-4b0f-92e5-d2571b32a1dc">
+      <active>true</active>
+      <description>MSFS2020 iFly HEADING</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:AUTOPILOT HEADING LOCK DIR, degrees)" UUID="2364dea4-fc6d-4278-bac6-150fd3513b6a" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="False" expression="($ * 360) / 65536" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Display Module" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" ledAddress="MAX2" ledConnector="1" ledModuleSize="8" ledPadding="True" ledPaddingChar="0" ledDigits="5,6,7" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="178d0a6d-6d4a-4e72-8c75-9d26612ec4ab">
+      <active>true</active>
+      <description>MSFS2020 iFly BACKLIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:LIGHT PANEL ON,Bool)" UUID="9359d1cc-64a1-4094-bb74-666312f55da9" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="False" expression="$" />
+          <comparison active="True" value="-1" operand="!=" ifValue="1" elseValue="1" />
+        </modifiers>
+        <display type="Output" serial="CoreFlightTech MCP/ SN-cfd-f70" trigger="normal" pin="Backlight_Pin" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+  </outputs>
+  <inputs>
+    <config guid="d87802ce-41b2-42fa-8ee3-59439f00b3fe">
+      <active>true</active>
+      <description>MSFS2020 iFly HDG ENC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="ENC_HEADING" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="28 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="b9df550d-4f9e-4359-a15d-113c893e063b" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="27 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="092d9977-8408-457e-9f69-fe1917f071a8" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="c0aafcb3-35fd-496a-9b76-40baeec37986">
+      <active>false</active>
+      <description>MSFS2020 iFly CRS L ENC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="ENC_CRS_L" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft />
+          <onLeftFast />
+          <onRight />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="ec3cce46-c19b-4c1a-bb93-3843347b5552">
+      <active>false</active>
+      <description>MSFS2020 iFly CRS R ENC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="ENC_CRS_R" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft />
+          <onLeftFast />
+          <onRight />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="a691e256-3063-43c4-851c-31e443039f3e">
+      <active>true</active>
+      <description>MSFS2020 iFly ALT ENC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="ENC_ALTITUDE" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="32 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="f369e6cf-fb2f-4fa4-b7c9-dc179af5807c" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="31 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="44c78db2-0e32-4b08-90b2-12af5ff948a6" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="1d9f9cb6-2084-4bed-b71a-671905a713be">
+      <active>true</active>
+      <description>MSFS2020 iFly VS ENC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="ENC_VS" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="35 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="bfc77a8b-e159-4dfe-b383-1d316e9c1b09" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="36 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="6bbf4406-13d6-4b24-9df2-4b7f679eb5d8" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="9081a998-9392-4350-a036-81d6823c4a63">
+      <active>true</active>
+      <description>MSFS2020 iFly SPEED IAS ENC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="ENC_IASMACH" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="22 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="537fd728-0b2e-4ff7-9235-7e5f818396db" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="21 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="6e94f2c1-ba6e-49ac-90a7-1272a48698ba" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="c24f24e9-3965-4f53-9d26-ad4a81aba96a">
+      <active>true</active>
+      <description>MSFS2020 iFly ALT HOLD SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="ALT_HLD" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="55 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="ea2156e7-26b4-4182-a157-f1117cd96bfa" />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="f934a554-2cf4-4abb-aa8d-54592cd9e4c5">
+      <active>true</active>
+      <description>MSFS2020 iFly VS SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="VS" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="57 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="040845aa-5857-4e76-b57f-4e930f336b99" />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="c1573302-eb51-48a0-a343-c3ee09758de0">
+      <active>true</active>
+      <description>MSFS2020 iFly LNAV SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="LNAV" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="5 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="2ca25979-6ca7-4e67-ad34-e7ab03bb5396" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c1573302-eb51-48a0-a343-c3ee09758de0">
+      <active>true</active>
+      <description>MSFS2020 iFly VNAV SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="VNAV" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="3 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="18945be8-ba27-4807-b929-0f23ab111598" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c1573302-eb51-48a0-a343-c3ee09758de0">
+      <active>true</active>
+      <description>MSFS2020 iFly LVL CHG SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="LVL_CHG" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="49 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="1fd725e5-8bcb-401b-8cc1-b9512a98d015" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="87eb88ed-1841-4a42-8a3e-5ef9002dd726">
+      <active>true</active>
+      <description>MSFS2020 iFly VOR LOC SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="VORLOC" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="29 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="dc9c4a0d-8ea9-470d-b298-b4838ac867fa" />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="3274e99b-f79c-4ee0-9fb5-092f7430bb55">
+      <active>true</active>
+      <description>MSFS2020 iFly APP SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="APP" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="53 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="d89a08eb-f79f-4fb7-afe6-5732aa7fb2c1" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c339815b-35ac-42b1-9a4f-ef4a9506caa6">
+      <active>true</active>
+      <description>MSFS2020 iFly CO SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="CO" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="19 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="033546e4-69e6-43bb-8d6d-381e74298d4a" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="16c0e863-89d8-4fbe-ab7a-271702b499fb">
+      <active>true</active>
+      <description>MSFS2020 iFly CMD A SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="CMDA" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="7 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="c06890dd-540d-4eaa-b1db-970808535861" />
+          <onRelease type="MSFS2020CustomInputAction" command="(&gt;K:AUTOPILOT_OFF)" presetId="bb9fd42a-427c-4f7c-a638-289ae746eb30" />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="eda262ce-62a0-4646-8642-99506a8422b6">
+      <active>false</active>
+      <description>MSFS2020 iFly BANK ANGLE 15</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="HeadingEnc_Btn" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button />
+        <preconditions>
+          <precondition type="config" active="true" ref="48e38ed2-fc9b-4c6a-963d-0ab0493ab9ca" operand="=" value="0" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="False" ref="48e38ed2-fc9b-4c6a-963d-0ab0493ab9ca" placeholder="B" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="8d0caef5-b366-40da-89b3-1a597519e1a8">
+      <active>false</active>
+      <description>MSFS2020 iFly BANK ANGLE 20</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="HeadingEnc_Btn" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button />
+        <preconditions>
+          <precondition type="config" active="true" ref="48e38ed2-fc9b-4c6a-963d-0ab0493ab9ca" operand="=" value="1" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="368bd6b5-8ca3-424b-b588-06eeeb0e26a6">
+      <active>false</active>
+      <description>MSFS2020 iFly BANK ANGLE 25</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="HeadingEnc_Btn" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button />
+        <preconditions>
+          <precondition type="config" active="true" ref="48e38ed2-fc9b-4c6a-963d-0ab0493ab9ca" operand="=" value="2" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="516b86d7-088e-499a-9013-df0904ab286f">
+      <active>false</active>
+      <description>MSFS2020 iFly BANK ANGLE 30</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="HeadingEnc_Btn" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button />
+        <preconditions>
+          <precondition type="config" active="true" ref="48e38ed2-fc9b-4c6a-963d-0ab0493ab9ca" operand="=" value="3" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="40586f8b-aa5d-4510-9e58-ca8bbb5a16de">
+      <active>false</active>
+      <description>MSFS2020 iFly BANK ANGLE 10</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="HeadingEnc_Btn" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button />
+        <preconditions>
+          <precondition type="config" active="true" ref="48e38ed2-fc9b-4c6a-963d-0ab0493ab9ca" operand="=" value="4" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="16c0e863-89d8-4fbe-ab7a-271702b499fb">
+      <active>true</active>
+      <description>MSFS2020 iFly CMD B SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="CMDB" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="9 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="3ff5a9f5-876d-40ab-8654-7e458aa5eacf" />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="09f03e6d-b352-4033-8aad-52949d616bd0">
+      <active>true</active>
+      <description>MSFS2020 iFly HDG SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="HDG_SEL" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="51 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="065f656f-82e3-487b-a665-9ac300150818" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="09f03e6d-b352-4033-8aad-52949d616bd0">
+      <active>false</active>
+      <description>MSFS2020 iFly N1 SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="N1" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="09f03e6d-b352-4033-8aad-52949d616bd0">
+      <active>true</active>
+      <description>MSFS2020 iFly SPD INTV SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="SPD_INTV" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="23 (&gt;L:VC_Automatic_Flight_trigger_VAL,number)" presetId="db994369-ecf6-483e-8e9b-b525d702ff7c" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="09f03e6d-b352-4033-8aad-52949d616bd0">
+      <active>true</active>
+      <description>MSFS2020 iFly ALT INTV SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="ALT_INTV" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command=" 33 (&gt;L:VC_Automatic_Flight_trigger_VAL,number)" presetId="a9def751-d4d4-48de-b71a-b2b0cc289d31" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="09f03e6d-b352-4033-8aad-52949d616bd0">
+      <active>true</active>
+      <description>MSFS2020 iFly CWSA SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="CWSA" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="37 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="1d0f8542-d723-40d8-9ae1-25a90e6c40d4" />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="09f03e6d-b352-4033-8aad-52949d616bd0">
+      <active>true</active>
+      <description>MSFS2020 iFly CWS B SEL</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="CWSB" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="39 (&gt;L:VC_Automatic_Flight_trigger_VAL, 0)" presetId="f21c431b-26c6-49fc-93a0-2f516ffb9319" />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="6a608a4d-0eeb-45e9-9805-e0353884109f">
+      <active>false</active>
+      <description>MSFS2020 iFly IAS HOLD</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="SPEED" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="EventIdInputAction" eventId="70014" param="2147483647" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="be1ad87d-0e75-4856-b77c-507fb7201923">
+      <active>false</active>
+      <description>MSFS DISENGAGE BAR </description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="DISENGAGE" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onRelease type="MSFS2020CustomInputAction" command="40601 (&gt;K:ROTOR_BRAKE)" presetId="2e6d511a-c65f-4945-b021-f7e6cf077ebb" />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="be1ad87d-0e75-4856-b77c-507fb7201923">
+      <active>true</active>
+      <description>MSFS2020 iFly R F/D</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="FDR" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="44 (&gt;L:VC_Automatic_Flight_trigger_VAL,number)&#xA;" presetId="4e9fcda9-f425-4003-8e76-fa1c54238b12" />
+          <onRelease type="MSFS2020CustomInputAction" command="43 (&gt;L:VC_Automatic_Flight_trigger_VAL,number)" presetId="e2bc4141-5697-4671-a4da-d0e5c8d0c4d9" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="be1ad87d-0e75-4856-b77c-507fb7201923">
+      <active>true</active>
+      <description>MSFS2020 iFly L F/D</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="FDL" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="42 (&gt;L:VC_Automatic_Flight_trigger_VAL,number)&#xA;" presetId="1ba11418-42d1-4075-a913-7cde36787bdb" />
+          <onRelease type="MSFS2020CustomInputAction" command="41 (&gt;L:VC_Automatic_Flight_trigger_VAL,number)&#xA;" presetId="bc2a8d61-a323-4fe8-850f-605d867ccb3d" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b8a2f555-b7e3-45be-8684-782551954e3c">
+      <active>true</active>
+      <description>MSFS2020 iFly AT/ARM</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="AT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:VC_Automatic_Flight_trigger_VAL,number)" presetId="f402bd7b-d1ce-417e-ae0b-111093f8b3f2" />
+          <onRelease type="MSFS2020CustomInputAction" command="2 (&gt;L:VC_Automatic_Flight_trigger_VAL,number)" presetId="f6885806-12ef-4f92-be70-2d61ccc8a667" />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="5780e6d3-ae7b-49f6-bbd9-4e2b53281774">
+      <active>true</active>
+      <description>MSFS2020 iFly SPEED IAS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.4.0.1, Culture=neutral, PublicKeyToken=null" serial="CoreFlightTech MCP/ SN-cfd-f70" name="SPD" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="38201  (&gt;K:ROTOR_BRAKE)" presetId="37f8ae3e-c803-48b2-9471-d6e432ba67ee" />
+        </button>
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="9723f4eb-b410-49cc-ac87-ea9f48919847" placeholder="B" testvalue="1" />
+          <configref active="False" ref="e84fae90-446a-45bf-ab6d-a0f5ddd5ffe3" placeholder="A" testvalue="1" />
+          <configref active="False" ref="2e26163e-79ec-4ad9-91e7-60875c517f2f" placeholder="@" testvalue="1" />
+          <configref active="False" ref="a6b54494-688b-4a8a-8ca4-82891f815510" placeholder="?" testvalue="1" />
+          <configref active="False" ref="b43dfb5a-4298-4569-aff4-675060f4610a" placeholder="!" testvalue="1" />
+          <configref active="False" ref="350fb30d-0670-417a-b654-000c6ab2c11a" placeholder="#" testvalue="1" />
+        </configrefs>
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>
